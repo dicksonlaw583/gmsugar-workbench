@@ -1,4 +1,4 @@
-///gmsugar_test_arrays
+///gmsugar_test_arrays()
 {
 var expected, got, data;
   

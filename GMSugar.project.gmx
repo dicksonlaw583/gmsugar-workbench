@@ -76,6 +76,7 @@
         <script>scripts\Lattice.gml</script>
         <script>scripts\lattice_width.gml</script>
         <script>scripts\lattice_height.gml</script>
+        <script>scripts\OpenGlMatrix.gml</script>
       </scripts>
       <scripts name="Data Structures">
         <script>scripts\Map.gml</script>

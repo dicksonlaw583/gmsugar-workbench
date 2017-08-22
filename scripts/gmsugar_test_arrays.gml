@@ -45,5 +45,16 @@ assert_equal(array_height_2d(got), 2, "Lattice constructor has wrong height!");
 assert_equal(array_length_2d(got, 0), 3, "Lattice constructor has the wrong length!");
 assert_equal(lattice_width(got), 2, "Lattice width helper has wrong width!");
 assert_equal(lattice_height(got), 3, "Lattice height helper has wrong height!");
+
+// OpenGL matrix
+expected = undefined;
+expected = Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16);
+got = OpenGlMatrix(
+   1,  5,  9, 13,
+   2,  6, 10, 14,
+   3,  7, 11, 15,
+   4,  8, 12, 16
+);
+assert_equal(got, expected, "OpenGL matrix doesn't match!");
 }
 

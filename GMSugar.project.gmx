@@ -101,6 +101,12 @@
       <scripts name="Timelines">
         <script>scripts\Timeline.gml</script>
       </scripts>
+      <scripts name="JSON">
+        <script>scripts\JsonData.gml</script>
+        <script>scripts\JsonMap.gml</script>
+        <script>scripts\JsonList.gml</script>
+        <script>scripts\JsonArray.gml</script>
+      </scripts>
     </scripts>
     <scripts name="GMSugarTest">
       <script>scripts\gmsugar_test_all.gml</script>
@@ -108,6 +114,7 @@
       <script>scripts\gmsugar_test_ds.gml</script>
       <script>scripts\gmsugar_test_buffers.gml</script>
       <script>scripts\gmsugar_test_dates.gml</script>
+      <script>scripts\gmsugar_test_json.gml</script>
     </scripts>
   </scripts>
   <rooms name="rooms">

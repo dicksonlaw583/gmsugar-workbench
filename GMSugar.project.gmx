@@ -114,6 +114,11 @@
         <script>scripts\Path.gml</script>
         <script>scripts\CurvePath.gml</script>
       </scripts>
+      <scripts name="IAP">
+        <script>scripts\IapList.gml</script>
+        <script>scripts\IapProduct.gml</script>
+        <script>scripts\IapConsumable.gml</script>
+      </scripts>
     </scripts>
     <scripts name="GMSugarTest">
       <script>scripts\gmsugar_test_all.gml</script>
@@ -123,6 +128,7 @@
       <script>scripts\gmsugar_test_dates.gml</script>
       <script>scripts\gmsugar_test_json.gml</script>
       <script>scripts\gmsugar_test_paths.gml</script>
+      <script>scripts\gmsugar_test_iap.gml</script>
     </scripts>
   </scripts>
   <rooms name="rooms">

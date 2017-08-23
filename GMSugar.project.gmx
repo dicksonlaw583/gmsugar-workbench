@@ -92,12 +92,16 @@
         <script>scripts\FastBuffer.gml</script>
         <script>scripts\Buffer.gml</script>
       </scripts>
+      <scripts name="Dates">
+        <script>scripts\Date.gml</script>
+      </scripts>
     </scripts>
     <scripts name="GMSugarTest">
       <script>scripts\gmsugar_test_all.gml</script>
       <script>scripts\gmsugar_test_arrays.gml</script>
       <script>scripts\gmsugar_test_ds.gml</script>
       <script>scripts\gmsugar_test_buffers.gml</script>
+      <script>scripts\gmsugar_test_dates.gml</script>
     </scripts>
   </scripts>
   <rooms name="rooms">

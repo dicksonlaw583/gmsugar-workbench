@@ -98,6 +98,9 @@
       <scripts name="Clickable">
         <script>scripts\Clickable.gml</script>
       </scripts>
+      <scripts name="Timelines">
+        <script>scripts\Timeline.gml</script>
+      </scripts>
     </scripts>
     <scripts name="GMSugarTest">
       <script>scripts\gmsugar_test_all.gml</script>

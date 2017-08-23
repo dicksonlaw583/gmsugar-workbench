@@ -119,6 +119,12 @@
         <script>scripts\IapProduct.gml</script>
         <script>scripts\IapConsumable.gml</script>
       </scripts>
+      <scripts name="Networking">
+        <script>scripts\TcpClient.gml</script>
+        <script>scripts\UdpClient.gml</script>
+        <script>scripts\TcpServer.gml</script>
+        <script>scripts\UdpServer.gml</script>
+      </scripts>
     </scripts>
     <scripts name="GMSugarTest">
       <script>scripts\gmsugar_test_all.gml</script>

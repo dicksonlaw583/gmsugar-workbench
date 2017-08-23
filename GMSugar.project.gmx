@@ -107,6 +107,9 @@
         <script>scripts\JsonList.gml</script>
         <script>scripts\JsonArray.gml</script>
       </scripts>
+      <scripts name="Surfaces">
+        <script>scripts\Surface.gml</script>
+      </scripts>
     </scripts>
     <scripts name="GMSugarTest">
       <script>scripts\gmsugar_test_all.gml</script>

@@ -95,6 +95,9 @@
       <scripts name="Dates">
         <script>scripts\Date.gml</script>
       </scripts>
+      <scripts name="Clickable">
+        <script>scripts\Clickable.gml</script>
+      </scripts>
     </scripts>
     <scripts name="GMSugarTest">
       <script>scripts\gmsugar_test_all.gml</script>

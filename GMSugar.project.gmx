@@ -110,6 +110,10 @@
       <scripts name="Surfaces">
         <script>scripts\Surface.gml</script>
       </scripts>
+      <scripts name="Paths">
+        <script>scripts\Path.gml</script>
+        <script>scripts\CurvePath.gml</script>
+      </scripts>
     </scripts>
     <scripts name="GMSugarTest">
       <script>scripts\gmsugar_test_all.gml</script>
@@ -118,6 +122,7 @@
       <script>scripts\gmsugar_test_buffers.gml</script>
       <script>scripts\gmsugar_test_dates.gml</script>
       <script>scripts\gmsugar_test_json.gml</script>
+      <script>scripts\gmsugar_test_paths.gml</script>
     </scripts>
   </scripts>
   <rooms name="rooms">

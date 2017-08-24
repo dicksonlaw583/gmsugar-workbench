@@ -124,6 +124,8 @@
         <script>scripts\UdpClient.gml</script>
         <script>scripts\TcpServer.gml</script>
         <script>scripts\UdpServer.gml</script>
+      </scripts>
+      <scripts name="Client Data Bank">
         <script>scripts\ClientDataBank.gml</script>
         <script>scripts\_ClientDataBank.gml</script>
         <script>scripts\cdb_count.gml</script>

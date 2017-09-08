@@ -97,6 +97,7 @@ got = CurvePath(
   150, 100,
   200, 0,
 );
+assert_equal(path_get_precision(got), 4, "Curve path has wrong default precision!");
 assert_fail(path_get_closed(got), "Curve path got closed!");
 for (var i = 0; i < array_height_2d(expected); i++) {
   assert_equal(path_get_point_x(got, i), expected[i, 0], "Curve path point " + string(i) + " x is wrong!");
@@ -122,6 +123,7 @@ expected = Array2(10, 3,
   25, 400, 100
 );
 got = CurvePath(
+  "precision", 8,
   0, 200,
   "speed_point", 50,
     50, 100,
@@ -136,6 +138,7 @@ got = CurvePath(
   "speed", 100,
   25, 400
 );
+assert_equal(path_get_precision(got), 8, "Blob path has wrong given precision!");
 assert_fail(path_get_closed(got), "Blob path got closed!");
 for (var i = 0; i < array_height_2d(expected); i++) {
   assert_equal(path_get_point_x(got, i), expected[i, 0], "Blob path point " + string(i) + " x is wrong!");
